@@ -18,8 +18,8 @@ else:
     os.system("clear")
 print('''   v0.8
       ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-      ┃-------Made by StussyGWakee-------┃
-      ┃--Telegram: @StussyG--┃
+      ┃-------Made by StussyGWakee--┃
+      ┃--Telegram: @StussyG---------┃
       ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 ''')
