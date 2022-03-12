@@ -55,7 +55,7 @@ while cool < 0:
 def valentine(app, message):
     global number
     number = number + 1
-    app.edit(f'<b>Кидаю step, лечу прям вверх</b>')
+    app.editMessage(f'<b>Кидаю step, лечу прям вверх</b>')
     sleep(1)
     app.send_message(message.chat.id,f'<b>Мой красный сет убил их всех</b>')
     sleep(1)
