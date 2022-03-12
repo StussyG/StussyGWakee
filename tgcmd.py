@@ -168,9 +168,6 @@ def valentine(app, message):
     app.send_message(message.chat.id,f'<b>Им не убить меня, so hard</b>')
     sleep(1)
 
-    
-     if(end_message != ''):
-        app.send_message(message.chat.id, end_message)  
 
 
 @app.on_message(filters.command("dead", prefixes=".") & filters.me)
