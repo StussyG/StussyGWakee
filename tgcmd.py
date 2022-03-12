@@ -358,7 +358,7 @@ roi = f'<b> Случайное число: </b>'
 def valentine(app, message):
     global number
     number = number + 1
-    msg.edit(f"<b>Ты гуль?</b>')
+    msg.edit(f"<b>Ты гуль?</b>")
     sleep(2)
     app.send_message(message.chat.id,f'<i>Я тоже</i>')
     sleep(5)
