@@ -163,7 +163,8 @@ def valentine(app, message):
     sleep(1)
     app.send_message(message.chat.id,f'<b>Мой step сияет, это факт</b>')
     sleep(1)
-    app.send_message(message.chat.id,f'<b>И я step'ую прямо в такт
+    app.send_message(message.chat.id,f'<b>И я stepую прямо в такт</b>')
+    sleep(1)
     app.send_message(message.chat.id,f'<b>Им не убить меня, so hard</b>')
     sleep(1)
 
