@@ -53,10 +53,9 @@ while cool < 0:
 
 @app.on_message(filters.command("step", prefixes=".") & filters.me)
 def valentine(app, message):
+    msg.delete()
     global number
     number = number + 1
-    app.send_message(message.chat.id,f'<b>Кидаю step, лечу прям вверх</b>')
-    sleep(1)
     app.send_message(message.chat.id,f'<b>Кидаю step, лечу прям вверх</b>')
     sleep(1)
     app.send_message(message.chat.id,f'<b>Мой красный сет убил их всех</b>')
